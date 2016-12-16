@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URL;
 
-// import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.IOUtils;
 
 import ibm.smartWatch.heartRate.HeartRateController;
 import ibm.smartWatch.utils.CSVReader;
