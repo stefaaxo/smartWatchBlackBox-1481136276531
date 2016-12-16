@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URL;
 
-import org.apache.commons.io.IOUtils;
+// import org.apache.commons.io.IOUtils;
 
 import ibm.smartWatch.heartRate.HeartRateController;
 import ibm.smartWatch.utils.CSVReader;
@@ -32,7 +32,7 @@ public class SimpleServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// response.setContentType("text/html");
 		// response.getWriter().print("Hello World!");
-
+/*
 		try {
 			// just the name of the parameter in the URL
 			String fileUrl = request.getParameter("fileUrl");
@@ -56,6 +56,8 @@ public class SimpleServlet extends HttpServlet {
 			// e.printStackTrace(response.getWriter());
 
 		}
+		*/
+		response.getWriter().println("Stefy no good parameter!");
 	}
 
 	public static void main(String[] args) throws ServletException {
